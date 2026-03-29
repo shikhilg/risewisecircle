@@ -511,9 +511,6 @@ export default function Home() {
                 </svg>
                 Watch on YouTube
               </a>
-              <p className="text-sm text-muted">
-                New content posted daily
-              </p>
             </div>
           </AnimateOnScroll>
         </div>
