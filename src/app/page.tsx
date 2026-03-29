@@ -547,7 +547,7 @@ export default function Home() {
             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
                 href="mailto:hello@risewisecircle.com"
-                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-accent text-white text-sm font-medium tracking-wide hover:bg-accent-light transition-colors duration-300"
+                className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-gradient-to-r from-[#4285F4] via-[#EA4335] to-[#FBBC05] text-white text-sm font-medium tracking-wide hover:opacity-90 transition-opacity duration-300"
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                   <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
@@ -633,7 +633,7 @@ export default function Home() {
               <a
                 href="mailto:hello@risewisecircle.com"
                 aria-label="Email"
-                className="w-10 h-10 rounded-full border border-foreground/8 flex items-center justify-center text-muted hover:text-accent hover:border-accent/30 transition-all duration-300"
+                className="w-10 h-10 rounded-full bg-gradient-to-br from-[#4285F4] via-[#EA4335] to-[#FBBC05] flex items-center justify-center text-white hover:opacity-85 transition-opacity duration-300"
               >
                 <svg viewBox="0 0 24 24" className="w-4 h-4" fill="currentColor">
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
